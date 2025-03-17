@@ -99,13 +99,11 @@ body
     }
 
     table{
-        width: 90%;
+                width: 600px;
     }
     main{
         display: flex;
         justify-content: center;
-
-
     }
     
     tbody, td, tfoot, th, thead, tr {
