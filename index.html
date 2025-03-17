@@ -56,12 +56,29 @@
             padding-right: 20px;
             padding-left: 20px;
         }
+        
+        .menu {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .menu a {
+            width: calc(25% - 30px);
+        }
+        
+        img{
+            max-width: 100%;
+            height: auto;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="https://koknongna.pages.dev/election/assets/img/logo.png" height="82px">
+            <img src="https://koknongna.pages.dev/election/assets/img/logo.png" width="82px" height="82px">
             <h1>เทศบาลตำบลโคกหนองนา</h1>
             <nav>
                 <ul>
@@ -98,7 +115,14 @@
                     </div>
                 </div>
             </section>
-            <section id="content"></section>
+            <section id="content">
+                <div class="menu">
+                    <a href=""><img src="https://nakorreua.go.th/upload/banners_file/banners_file_1.png" alt=""></a>
+                    <a href=""><img src="https://nakorreua.go.th/upload/banners_file/banners_file_3.png" alt=""></a>
+                    <a href=""><img src="https://nakorreua.go.th/upload/banners_file/banners_file_5.png" alt=""></a>
+                    <a href=""><img src="https://nakorreua.go.th/upload/banners_file/banners_file_8.png" alt=""></a>
+                </div>
+            </section>
         </div>
     </main>
     
