@@ -17,7 +17,7 @@ async function fetchAndUpdateData() {
                     });
 
                     // 🔹 คำนวณค่าเพิ่มเติม
-                    const sumMayor = (obj.mc1n1 || 0) + (obj.mc1n2 || 0);
+                    const sumMayor = (obj.mayor1 || 0) + (obj.mayor2 || 0);
                     const dMayor = sumMayor + (obj.noMayor || 0);
                     const sumMc1 = (obj.mc1n1 || 0) + (obj.mc1n2 || 0);
                     const dMc1r = sumMc1 + (obj.noMc1 || 0);
